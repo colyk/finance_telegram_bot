@@ -1,2 +1,6 @@
-# finance_telegram_bot
-Telegram bot for finance app
+# Telegram bot for finance app
+
+## heroku logs
+```cmd
+    heroku logs --tail
+```

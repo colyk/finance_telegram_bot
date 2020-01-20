@@ -1,0 +1,1 @@
+web: python heroku_run.py
