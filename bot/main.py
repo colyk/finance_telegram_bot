@@ -6,8 +6,8 @@ import json
 import telegram
 from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
 
-import db
-import finance_requests
+from . import db
+from . import finance_requests
 
 logging.basicConfig(
     format="\n%(asctime)s:%(levelname)s\n%(message)s", level=logging.INFO)

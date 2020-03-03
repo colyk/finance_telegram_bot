@@ -1,7 +1,7 @@
 import requests
 import json
 
-API = 'http://localhost:8000/'
+API = 'https://colykfinance.herokuapp.com/'
 
 
 def login(api_key: str):
